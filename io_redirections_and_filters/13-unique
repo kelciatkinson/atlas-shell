@@ -1,2 +1,2 @@
 #!/bin/bash
-list > sort -u
+cat list_1 | soret --ignore-case | uniq -u
