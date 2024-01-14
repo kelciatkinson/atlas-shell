@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH:/action
+ecport PATH="/action:$PATH"
