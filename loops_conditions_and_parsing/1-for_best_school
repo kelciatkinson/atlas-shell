@@ -1,6 +1,6 @@
 #!/usr/bin/env bash\n
 # This script is displaying "Best School" 10 times\n
-for i in $(seq 1 10)\n
+for i in $(seq 1 1 10)\n
 do\n
     echo "Best School"\n
     i=$(( i + 1 ))\n
