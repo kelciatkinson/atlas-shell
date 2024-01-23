@@ -1,3 +1,4 @@
 !/usr/bin/env bash
 #here is a comment
-while read -r line; do echo "$line" | cut -d: -f1,3,6; done < /etc/passwd
+while read -r line; do echo "$line" 
+| cut -d: -f1,3,6 -d ":" ; done < "/etc/passwd"
